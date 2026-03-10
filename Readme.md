@@ -18,7 +18,7 @@
 
 | Name | Author | Language | Speedup vs CPython | Notes |
 |------|--------|----------|--------------------|-------|
-| [microgpt.cpp](https://github.com/Charbel199/microgpt.cpp) | [@Charbel199](https://github.com/Charbel199) | C++ | ~219x | Single-file, single-threaded. Tape-based autograd. Arena allocator. Benchmarked ~109x vs PyPy. |
+| [microgpt.cpp](https://github.com/Charbel199/microgpt.cpp) | [@Charbel199](https://github.com/Charbel199) | C++ | ~219x | Single-file, single-threaded. Tape-based autograd. SoA arena allocator. Fused multiply-add. Stack KV cache. Benchmarked ~109x vs PyPy. |
 | [rust-microgpt](https://github.com/mplekh/rust-microgpt) | [@mplekh](https://github.com/mplekh) | Rust | ~440x | Tape autograd with MT19937 RNG for 1:1 output parity with microgpt.py. Uses unsafe blocks for max performance. ~74x vs PyPy. |
 | [EEmicroGPT](https://github.com/Entrpi/eemicrogpt) | [@Entrpi](https://github.com/Entrpi) | C | >440x | Single-file, dependency-free C. Explicit chain rule (no autograd overhead). SIMD/vectorized. Targets L1-resident weights on a single CPU core. |
 
