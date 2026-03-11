@@ -32,6 +32,7 @@
 
 | Name | Author | Language | Notes |
 |------|--------|----------|-------|
+| [microgpt-ts](https://github.com/dubzdubz/microgpt-ts) | [@dubzdubz](https://github.com/dubzdubz) | TypeScript | Clean, fully typed code. Works in the browser. Zero dependencies. Live demo at [microgpt-ts.vercel.app](https://microgpt-ts.vercel.app/). |
 | [microgptjs](https://github.com/assassindesign/microgptjs) | [@assassindesign](https://github.com/assassindesign) | JavaScript (Node.js, ES5) | Node.js port. Supports training on poetry/Chinese text. |
 | [trainmyowngpt](https://github.com/jayyvk/trainmyowngpt) | [@jayyvk](https://github.com/jayyvk) | JavaScript | Browser-based visual UI. Real-time training visualization. Live demo at [trainmyowngpt.com](https://trainmyowngpt.com/). |
 
