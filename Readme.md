@@ -46,7 +46,7 @@
 
 | Name | Author | Language | Notes |
 |------|--------|----------|-------|
-| [ocaml-microgpt](https://github.com/smimram/ocaml-microgpt) | [@smimram](https://github.com/smimram) | OCaml | ~6x faster than Python. |
+| [ocaml-microgpt](https://github.com/smimram/ocaml-microgpt) | [@smimram](https://github.com/smimram) | OCaml | ~6x faster than Python. Autograd library. |
 
 ---
 
