@@ -42,6 +42,12 @@
 |------|--------|----------|-------|
 | [microgpt_jl](https://github.com/ranton256/microgpt_jl) | [@ranton256](https://github.com/ranton256) | Julia (Flux.jl) | ~70x faster than Python (1.3s vs 89.2s). CUDA + Apple Metal support. Checkpoint persistence. 125 tests. Extended Shakespeare training mode. |
 
+### OCaml
+
+| Name | Author | Language | Notes |
+|------|--------|----------|-------|
+| [ocaml-microgpt](https://github.com/smimram/ocaml-microgpt) | [@smimram](https://github.com/smimram) | OCaml | ~6x faster than Python. |
+
 ---
 
 ## Python Variants & Extensions
