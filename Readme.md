@@ -61,6 +61,8 @@
 | [MoE microgpt](https://gist.github.com/credo92/4ba7d2db64bd6993864aaebbf13983cc) | [@credo92](https://github.com/credo92) | Adds a naive Mixture of Experts (MoE) layer to microgpt. |
 | [ko-microgpt](https://github.com/woduq1414/ko-microgpt) | [@woduq1414](https://github.com/woduq1414) | Korean-language microgpt. Live demo at [ko-microgpt.vercel.app](https://ko-microgpt.vercel.app/). |
 | [gpahal/microgpt](https://github.com/gpahal/microgpt) | [@gpahal](https://github.com/gpahal) | PyTorch-based micro GPT with RoPE, GQA, multi-GPU training, cosine LR, HellaSwag eval, 2-stage training with weight souping. |
+- [micro-attention-residuals](https://github.com/grahamannett/micro-attention-residuals) - A micro GPT implementation with Block Attention Residuals from MoonshotAI,
+ extending microgpt with learned residual-memory mixing before each sublayer.
 
 ---
 
