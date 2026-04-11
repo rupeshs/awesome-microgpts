@@ -48,6 +48,12 @@
 |------|--------|----------|-------|
 | [ocaml-microgpt](https://github.com/smimram/ocaml-microgpt) | [@smimram](https://github.com/smimram) | OCaml | ~6x faster than Python. Autograd library. |
 
+### Array Languages
+
+| Name | Author | Language | Notes |
+|------|--------|----------|-------|
+| [microgpt.apl](https://github.com/Nydhal/microgpt.apl) | [@Nydhal](https://github.com/Nydhal) | Dyalog APL | First port to an array language. Two implementations: a token-by-token companion mirroring microgpt.py, and a full-sequence array-native rewrite collapsing the per-head loop into `⍤2`. Explicit matrix gradients, no autograd. Verified bit-for-bit against microgpt.py at every layer. |
+
 ---
 
 ## Python Variants & Extensions
